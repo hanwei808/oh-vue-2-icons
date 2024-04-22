@@ -1,15 +1,46 @@
 {
   "name": "oh-vue-2-icons",
-  "version": "0.1.0",
-  "private": true,
+  "version": "1.0.0",
+  "private": false,
+  "description": "Include inline SVG icons from different popular icon packs in Vue 2 & 3 easily.",
+  "keywords": [
+    "icons",
+    "vue",
+    "font awesome",
+    "remix icon",
+    "bootstrap icons",
+    "line awesome",
+    "octions",
+    "simple icons",
+    "heroicons",
+    "material design icons",
+    "ionicons"
+  ],
+  "homepage": "https://oh-vue-icons.js.org",
+  "bugs": {
+    "url": "https://github.com/hanwei808/oh-vue-2-icons/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hanwei808/oh-vue-2-icons"
+  },
+  "license": "MIT",
+  "author": "hanwei808 <hancenter808@outlook.com>",
+  "main": "dist/index.cjs",
+  "module": "dist/index.mjs",
+  "files": [
+    "dist",
+    "icons"
+  ],
   "scripts": {
-    "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build",
+    "dev": "vue-cli-service serve",
+    "build": "rollup --config ./build/rollup.config.js",
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
     "core-js": "^3.8.3",
-    "vue": "^2.6.14"
+    "vue": "^2.6.14",
+    "vue-demi": "^0.14.7"
   },
   "devDependencies": {
     "@babel/core": "^7.12.16",
@@ -19,6 +50,11 @@
     "@vue/cli-service": "~5.0.0",
     "eslint": "^7.32.0",
     "eslint-plugin-vue": "^8.0.3",
+    "postcss": "^8.4.12",
+    "rollup": "^2.70.2",
+    "rollup-plugin-analyzer": "^4.0.0",
+    "rollup-plugin-esbuild": "^4.9.1",
+    "rollup-plugin-postcss": "^4.0.2",
     "vue-template-compiler": "^2.6.14"
   },
   "eslintConfig": {
