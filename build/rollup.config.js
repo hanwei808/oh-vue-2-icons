@@ -8,8 +8,7 @@ const base = {
     esbuild(),
     postcss(),
     analyze({ summaryOnly: true, hideDeps: true })
-  ],
-  external: ["vue-demi"]
+  ]
 };
 
 const config = [
