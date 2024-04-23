@@ -3,6 +3,7 @@ export * from "./ai";
 export * from "./bi";
 export * from "./ci";
 export * from "./co";
+export * from "./el";
 export * from "./fa";
 export * from "./fc";
 export * from "./fi";

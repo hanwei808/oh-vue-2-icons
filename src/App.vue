@@ -3,6 +3,8 @@
     <h1>Oh, Vue Icons!</h1>
 
     <h2>Basic</h2>
+    <v-icon name="el-warn-triangle-filled" />
+    <v-icon name="el-plus"></v-icon>
     <v-icon name="fa-flag" />
     <v-icon name="fc-linux" />
     <v-icon name="hi-academic-cap" />

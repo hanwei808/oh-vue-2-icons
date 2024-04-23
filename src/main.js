@@ -19,7 +19,10 @@ import {
   RiHeartPulseLine,
   BiLightning,
   HiAcademicCap,
-  RiSailboatLine
+  RiSailboatLine,
+  ElUser,
+  ElWarnTriangleFilled,
+  ElPlus
 } from "../icons";
 
 addIcons(
@@ -39,7 +42,10 @@ addIcons(
   RiHeartPulseLine,
   BiLightning,
   HiAcademicCap,
-  RiSailboatLine
+  RiSailboatLine,
+  ElUser,
+  ElWarnTriangleFilled,
+  ElPlus
 );
 
 addIcons({
