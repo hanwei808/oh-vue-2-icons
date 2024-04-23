@@ -1,6 +1,6 @@
 {
   "name": "oh-vue-2-icons",
-  "version": "1.5.0",
+  "version": "1.6.0",
   "private": false,
   "description": "Include inline SVG icons from different popular icon packs in Vue 2.",
   "keywords": [
