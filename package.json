@@ -33,8 +33,8 @@
     "icons"
   ],
   "scripts": {
-    "dev": "vue-cli-service serve",
     "build": "rollup --config ./build/rollup.config.js",
+    "dev": "vue-cli-service serve",
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
